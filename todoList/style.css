@@ -1,0 +1,262 @@
+/* 
+    Document   : style
+    Created on : May 29, 2012, 12:09:15 PM
+    Author     : mikhak
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+body{
+    background-color: #DEE5F1;
+    font:0.8em Arial, Serif, Helvetica, "bitstream vera sans", sans-serif;    
+}
+/*header*/
+#header{
+    border-bottom:1px solid #87CEFA;
+    height:90px;
+    margin:0 auto;
+    width:751px;
+    padding-bottom: 10px;
+}
+
+#header h1{
+    color:#D81116;
+    font-size:300%;
+    letter-spacing:-3px;
+    text-align:left;
+    padding:0px 0px 15px;
+    margin-bottom:-20px;
+}
+
+#header a{
+    color: #00BFFF;
+    float: right;
+    margin-left: 600px;
+    padding-bottom: 5px;
+
+}
+/* content */
+#content{
+    overflow: hidden;
+    height:auto;
+    margin:0 auto;
+    padding:0 0 20px;
+    width:751px;
+    height: 100%;
+}
+#content h1{
+    font-size:1.8em;
+    padding:20px 0 0;
+}
+#content p{
+    padding-top: 5px;
+}
+/* fieldset */
+#content fieldset {
+    padding: 1em;
+    font:80%/1 sans-serif;
+    font-size:15px;
+    border:1px solid #708090; 
+    border-bottom-right-radius:2em;
+    border-bottom-left-radius:2em; 
+    background: #E7D7E7;
+}
+#content legend{
+
+    padding: 5px 20px 5px 20px;
+    border:1px solid #708090;
+    color:#708090;
+    font-size:13px;
+    font-weight: bold;
+    text-align:left;
+    background: #E7D7E7;
+}
+#content table{
+    border: 1px #0000FF;
+    border-width: 750px;
+    padding: 3px;
+
+}
+
+.tableClass{
+    cellpadding: 5px;
+    border-collapse: collapse;
+}
+label {
+    float:left;
+    width:25%;
+    margin-right:0.5em;
+    padding-top:0.2em;
+    text-align:right;
+    font-weight:bold;
+    font-size: 11px;
+    line-height: 18px;
+}
+
+#logInStyle{
+    list-style: none;
+    margin: 0 auto;
+    text-decoration: underline;
+
+
+}
+#logInStyle a{
+    margin-left: 200px;
+    font-size: 11px;
+    color: #00BFFF;
+    float: left;
+
+}
+
+#logInStyle li{
+    list-style: none;
+    margin: 0 auto;
+
+}
+#logInStyle a:hover{
+    color: blue;
+}
+.border{
+    border-top-right-radius:0.2em;
+    border-top-left-radius:0.2em;
+    border-bottom-right-radius:0.2em;
+    border-bottom-left-radius:0.2em;
+    float: right;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 10px;
+    font-size: 12px;
+    overflow: hidden;
+}
+
+/* footer */
+#footer{
+    border-top:1px solid #87CEFA;
+    height:50px;
+    margin:0 auto;
+    padding:10px;
+    text-align:center;
+    width:751px;
+    color:#2F4F4F;
+}
+
+input, select, .input {
+    padding: 5px;
+    font-weight: bold;
+    font-size: 12px;
+    color: #000000;
+    background: #FFFFFF;
+    border:1px solid #004080;
+}
+.inputBox{
+    height: 10px;
+    width: 120px;
+}
+.inputRow{
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+table{
+    border: 1px #0000FF;
+    border-width: 750px;
+    padding: 3px;
+    
+}
+
+select{
+    font-size: 10px;
+}
+
+.error{
+    color: #FF0000;
+    border: 2px solid;
+    border-color: gray;
+}
+
+#nav{
+    float:left;
+    font-size: 11px;
+    color: #475C34;
+    font-family: Trebuchet MS, Helvetica, Arial, sans-serif, Verdana;
+    text-decoration: none;
+    width: 125px;
+}
+#nav li{
+    list-style: none;
+    padding: 5px 5px 5px 2px;
+    border-bottom: 1px dotted #708090;
+    border-right: 1px dotted #708090;
+
+
+    background: #E5E5E5;
+    background: -moz-linear-gradient(top, #E5E5E5 0%, #F9F9F9 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#E5E5E5), color-stop(100%,#F9F9F9));
+    background: -webkit-linear-gradient(top, #E5E5E5 0%,#F9F9F9 100%);
+    background: -o-linear-gradient(top, #E5E5E5 0%,#F9F9F9 100%);
+    background: -ms-linear-gradient(top, #E5E5E5 0%,#F9F9F9 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', endColorstr='#f9f9f9',GradientType=0 );
+    background: linear-gradient(top, #E5E5E5 0%,#F9F9F9 100%);
+}
+#nav li:hover{
+
+    background: #CBDEB5;
+    background: -moz-linear-gradient(top, #CBDEB5 0%, #F9F9F9 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#CBDEB5), color-stop(100%,#F9F9F9));
+    background: -webkit-linear-gradient(top, #CBDEB5 0%,#F9F9F9 100%);
+    background: -o-linear-gradient(top, #CBDEB5 0%,#F9F9F9 100%);
+    background: -ms-linear-gradient(top, #CBDEB5 0%,#F9F9F9 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#CBDEB5', endColorstr='#f9f9f9',GradientType=0 );
+    background: linear-gradient(top, #CBDEB5 0%,#F9F9F9 100%);
+
+}
+#spanColor{
+    color: #E47911;
+    padding-left: 5px;
+    font-weight: bold;
+}
+/* navigation */
+#navigation{
+
+    margin:0 auto;
+    width:750px;
+    height:35px;
+    list-style:none;
+    text-align:center;
+}
+#navigation li{
+    border-top-right-radius:1em;
+    border-top-left-radius:1em;    
+    float:left;
+    margin-right: 10px;
+    width: auto;
+    list-style:none;
+    text-align:center;	
+}
+#navigation a{
+    font:0.8em Arial, Serif, Helvetica, "bitstream vera sans", sans-serif;        
+
+color: #567821;
+    display:block;
+    line-height:35px;
+    text-align:center;
+    font-size:15px;
+}
+#navigation a:hover{
+background: #B9CCDF;
+    border-top-right-radius:1em;
+    border-top-left-radius:1em;
+
+}
+#navigation a:active{
+    background:#e3e3e3;
+    color:#777;
+}
+
