@@ -1,0 +1,122 @@
+/* 
+    Document   : style
+    Created on : May 16, 2012, 12:11:52 PM
+    Author     : mikhak
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+
+}
+body {
+    font-family: "Arial Narrow", "Tahoma", "Helvetica", "Arial", sans-serif;
+/*    background-color: #2D2D2D;*/
+background-color: #2D2D2D;
+}
+h1{
+    padding: 5px 5px 5px 5px;
+    color: #539CFF;
+    text-align: center;
+    font-size: 50px;
+}
+h3{
+    padding: 5px 5px 5px 5px;
+    color: #C73737;
+    font-family: KomikaAxisRegular;
+    font-style: italic;
+    font-size: 40px;
+}
+#main{
+    background: black url("img/bckgrnd.jpeg");
+    width: 900px;
+    min-height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sec1{
+    background: lightgray url("img/sec1bckgrnd.gif");
+    width: 500px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+#tutText{
+    color: #FFF9F5;
+    font-size: 20px;
+    font-family: "Arial Narrow", "Tahoma", "Helvetica", "Arial", sans-serif;
+    margin-left: 200px;
+    margin-right: auto;
+}
+#olStyle{
+    font-size: 17px;
+}
+/*#stepTabs{
+    color: #FF4C00;
+    text-align: center;
+    font-family: "Arial Narrow", "Tahoma", "Helvetica", "Arial", sans-serif;
+    font-size: 25px;
+    background:#e5eecc;
+    border:solid 1px #c3c3c3;
+}
+#panel{
+    border:solid 1px #c3c3c3;
+    text-align: center;
+}*/
+
+.flip
+{
+    font-family: "Arial Narrow", "Tahoma", "Helvetica", "Arial", sans-serif;
+    font-size: 25px;
+    color: #FF4C00;
+    margin:0px;
+    padding:5px;
+    text-align:center;
+/*    background:#e5eecc;*/
+    border:solid 1px #c3c3c3;
+}
+.panel
+{
+    font-family: "Arial Narrow", "Tahoma", "Helvetica", "Arial", sans-serif;
+    font-size: 25px;
+    color: #A40B00;    
+    margin:0px;
+    padding:5px;
+    text-align:center;
+/*    background:#e5eecc;*/
+    border:solid 1px #c3c3c3;
+/*    height:120px;*/
+    display:none;
+}
+a{
+    font-family: "Arial Narrow", "Tahoma", "Helvetica", "Arial", sans-serif;
+    font-size: 25px;    
+/*    color: blanchedalmond;*/
+    text-align: center;
+}
+.textInDiv{
+    text-align: center;
+    font-family: "Arial Narrow", "Tahoma", "Helvetica", "Arial", sans-serif;
+    font-size: 17px;
+}
+.textInDiv2{
+    text-align: center;
+    font-family: "Arial Narrow", "Tahoma", "Helvetica", "Arial", sans-serif;
+    font-size: 25px;
+    color: blue
+}
+.a2{
+    color: blanchedalmond;
+    text-align: center;
+}
+.a3{
+    color: red;
+    text-align: center;
+}

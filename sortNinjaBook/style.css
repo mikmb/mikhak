@@ -1,0 +1,107 @@
+/* 
+    Document   : style
+    Created on : May 22, 2012, 10:40:11 PM
+    Author     : mikhak
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+body{
+    background-color: #5CA7FF;
+}
+h1{
+    padding: 5px 5px 5px 5px;
+    color: #539CFF;
+    text-align: center;
+    font-size: 50px;
+}
+#header{
+    border-bottom:1px solid #87CEFA;
+    height:90px;
+    margin:0 auto;
+    width:751px;
+}
+
+#header h1{
+    color:#D81116;
+    font-size:300%;
+    letter-spacing:-3px;
+    text-align:left;
+    padding:0px 0px 15px;
+    margin-bottom:-20px;
+}
+/* footer */
+#footer{
+    border-top:1px solid #87CEFA;
+    height:50px;
+    margin:0 auto;
+    padding:10px;
+    text-align:center;
+    width:751px;
+    color:#2F4F4F;
+}
+.content{
+    width: 751px;
+    margin: 0 auto;
+    padding: 5px 5px 5px 5px;
+    overflow:hidden;
+    height: auto;
+}
+.vertical_text {
+    -moz-transform: rotate(90deg);
+    writing-mode: tb-rl;
+}
+#note{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    font-size: 15px;
+    color: #475C34;
+    font-family: Trebuchet MS, Helvetica, Arial, sans-serif, Verdana;
+    text-decoration: none;
+    width: 500px;
+
+    text-align: center;
+    padding: 5px 5px 5px 2px;
+
+    background: #E5E5E5;
+    background: -moz-linear-gradient(top, #E5E5E5 0%, #F9F9F9 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#E5E5E5), color-stop(100%,#F9F9F9));
+    background: -webkit-linear-gradient(top, #E5E5E5 0%,#F9F9F9 100%);
+    background: -o-linear-gradient(top, #E5E5E5 0%,#F9F9F9 100%);
+    background: -ms-linear-gradient(top, #E5E5E5 0%,#F9F9F9 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', endColorstr='#f9f9f9',GradientType=0 );
+    background: linear-gradient(top, #E5E5E5 0%,#F9F9F9 100%);
+}
+.content2{
+    color: #475C34;
+    font-family: Trebuchet MS, Helvetica, Arial, sans-serif, Verdana;
+    font-size: 20px;
+    width:750px;
+
+    padding-bottom: 700px;
+
+    float: left;
+
+}
+.rotate {
+    behavior:url(-ms-transform.htc);
+    -moz-transform:rotate(90deg);
+    -webkit-transform:rotate(90deg);
+    -o-transform:rotate(90deg);
+    -ms-transform:rotate(90deg);
+    float: left;
+
+    max-width: 20px;
+
+
+}
+
