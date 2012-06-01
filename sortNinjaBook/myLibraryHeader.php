@@ -9,10 +9,6 @@ if (!isset($_SESSION)) {
     <head>
         <title><?php echo $page_title; ?></title>
         <script type="text/javascript">
-            function show_alert()
-            {
-                alert("Please upload a .json file!");
-            }
         </script>
         <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
