@@ -1,4 +1,5 @@
-<?php #index.php
+<?php
+#index.php
 error_reporting(E_ALL);
 ini_set("display_errors", 1);
 ?>
@@ -37,14 +38,12 @@ ini_set("display_errors", 1);
                     <li>Stand up and stretch.</li>
                 </ol>
                 <br/>
-                
+
                 <div class="panel">
                     <p>Yey! You've finished step 1, click below again and scroll down a little and go to step 2!</p>
                 </div>
                 <p class="flip" >
-                    <!--            <a href="step2.php">-->
                     When you're done, click here!
-                    <!--            </a> -->
                 </p>
 
             </div>

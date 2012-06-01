@@ -17,8 +17,8 @@ root {
 }
 body {
     font-family: "Arial Narrow", "Tahoma", "Helvetica", "Arial", sans-serif;
-/*    background-color: #2D2D2D;*/
-background-color: #2D2D2D;
+    /*    background-color: #2D2D2D;*/
+    background-color: #2D2D2D;
 }
 h1{
     padding: 5px 5px 5px 5px;
@@ -58,18 +58,6 @@ h3{
 #olStyle{
     font-size: 17px;
 }
-/*#stepTabs{
-    color: #FF4C00;
-    text-align: center;
-    font-family: "Arial Narrow", "Tahoma", "Helvetica", "Arial", sans-serif;
-    font-size: 25px;
-    background:#e5eecc;
-    border:solid 1px #c3c3c3;
-}
-#panel{
-    border:solid 1px #c3c3c3;
-    text-align: center;
-}*/
 
 .flip
 {
@@ -79,7 +67,7 @@ h3{
     margin:0px;
     padding:5px;
     text-align:center;
-/*    background:#e5eecc;*/
+    /*    background:#e5eecc;*/
     border:solid 1px #c3c3c3;
 }
 .panel
@@ -90,15 +78,12 @@ h3{
     margin:0px;
     padding:5px;
     text-align:center;
-/*    background:#e5eecc;*/
     border:solid 1px #c3c3c3;
-/*    height:120px;*/
     display:none;
 }
 a{
     font-family: "Arial Narrow", "Tahoma", "Helvetica", "Arial", sans-serif;
     font-size: 25px;    
-/*    color: blanchedalmond;*/
     text-align: center;
 }
 .textInDiv{
