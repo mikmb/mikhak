@@ -12,9 +12,7 @@ $r=mysqli_query($dbc, $q); //Runs the query
 while($row=mysqli_fetch_array($r)){
 $task_desc=$row['task_description'];
 $taskId=$row['task_id'];
-//if($r){
     echo '<option value="'.$taskId.'">'.$task_desc.'</option>';
-//}  
 
 }
 mysqli_close($dbc);
