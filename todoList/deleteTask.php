@@ -41,7 +41,7 @@ include('userHeader.php');
                 alert(msg);
                 $('#taskOptionForDel').val("");
 
-                updateSelectCatForDel();
+                updateSelectTaskForDel();
 
             });
         });
@@ -56,7 +56,7 @@ include('userHeader.php');
 <form>
 
 
-    <select name="taskToChoose" class="marginDelAdjust" id="taskOptionForDel">
+    <select name="taskToChoose" id="taskOptionForDel">
         <option value="" selected="selected" >Choose a task</option> 
     </select>
 
